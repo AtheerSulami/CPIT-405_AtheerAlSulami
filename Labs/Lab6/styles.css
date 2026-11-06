@@ -1,0 +1,154 @@
+/* Basic CSS styling for the HTML and JavaScript Lab 6 page */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f3ff;
+    color: #29233e;
+}
+
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 35px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.course {
+    color: #6852b7;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    line-height: 1.6;
+}
+
+.panel {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #e6e0f8;
+    border-radius: 12px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.vote-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 17px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6852b7;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.like-button {
+    background-color: #2c936b;
+}
+
+.dislike-button {
+    background-color: #d35b69;
+}
+
+.vote-buttons span {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 3px 8px;
+    margin-left: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #c9c3da;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.message {
+    color: #615880;
+    min-height: 20px;
+}
+
+#comment-list {
+    padding-left: 20px;
+    overflow-wrap: anywhere;
+}
+
+#comment-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee9f6;
+}
+
+.reset-panel {
+    text-align: center;
+}
+
+#reset-button {
+    background-color: #4a3e72;
+}
+
+footer {
+    text-align: center;
+    color: #6c6484;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #6852b7;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .panel {
+        padding: 18px;
+    }
+
+    .vote-buttons button {
+        width: 100%;
+    }
+}
