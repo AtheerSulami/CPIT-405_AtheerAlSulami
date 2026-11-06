@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 - Like, Dislike & Comments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <p class="course">CPIT-405 | Lab 6</p>
+            <h1>Like, Dislike & Comments</h1>
+            <p>Share your opinion! You can vote and comment once. Your choices are saved using browser cookies.</p>
+        </header>
+
+        <section class="panel" aria-labelledby="vote-heading">
+            <h2 id="vote-heading">Cast your vote</h2>
+            <div class="vote-buttons">
+                <button id="like-button" type="button" class="like-button">👍 Like <span id="like-count">0</span></button>
+                <button id="dislike-button" type="button" class="dislike-button">👎 Dislike <span id="dislike-count">0</span></button>
+            </div>
+            <p id="vote-message" class="message" aria-live="polite"></p>
+        </section>
+
+        <section class="panel" aria-labelledby="comment-heading">
+            <h2 id="comment-heading">Leave a comment</h2>
+            <form id="comment-form">
+                <label for="comment-input">Your comment</label>
+                <input id="comment-input" type="text" placeholder="Write your comment here..." maxlength="180" required>
+                <button id="comment-button" type="submit">Submit Comment</button>
+            </form>
+            <p id="comment-message" class="message" aria-live="polite"></p>
+            <h3>Comments</h3>
+            <p id="empty-message">No comments yet.</p>
+            <ul id="comment-list"></ul>
+        </section>
+
+        <section class="panel reset-panel">
+            <h2>Start over</h2>
+            <p>Reset your vote and comments to participate again.</p>
+            <button id="reset-button" type="button">Reset Choices & Comments</button>
+            <p id="reset-message" class="message" aria-live="polite"></p>
+        </section>
+
+        <footer>
+            <p>Created for CPIT-405 | JavaScript, DOM & Cookies</p>
+            <a href="../labs.html">Back to Labs</a>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
