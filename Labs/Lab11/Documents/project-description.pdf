@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1561 >>
+stream
+0.07 0.14 0.25 rg
+30 717 552 54 re f
+BT /F1 19 Tf 1 1 1 rg 44 738 Td (LAB 11 | Project Description) Tj ET
+BT /F1 10 Tf 0.11 0.19 0.31 rg 44 697 Td
+(Atheer AlSulami  |  Student ID 2307149  |  CPIT 405) Tj
+0 -19 Td () Tj
+0 -19 Td (Assignment topic: Ajax \(DOM, XML, JSON, PHP\)) Tj
+0 -19 Td (Source: https://cpit405.gitlab.io/labs/lab-11/) Tj
+0 -19 Td () Tj
+0 -19 Td (LAB ASSESSMENT) Tj
+0 -19 Td (1. PHP associative array: Mohammad -> 4, Fahad -> 3.5.) Tj
+0 -19 Td (2. PHP json_encode generates the JSON response.) Tj
+0 -19 Td (3. Ajax Fetch requests the PHP endpoint and logs it in Console.) Tj
+0 -19 Td () Tj
+0 -19 Td (ADDITIONAL LEARNING OBJECTIVES) Tj
+0 -19 Td (PHP-generated XML is parsed by JavaScript DOMParser.) Tj
+0 -19 Td (POST requests are sent with Fetch and URLSearchParams.) Tj
+0 -19 Td () Tj
+0 -19 Td (HOMEWORK: AJAX STUDENT GRADE MANAGER) Tj
+0 -19 Td (User event calls JS -> PHP controller -> model -> MariaDB.) Tj
+0 -19 Td (Model returns a PHP array; controller encodes it to JSON.) Tj
+0 -19 Td (JavaScript updates table cells without a full reload.) Tj
+0 -19 Td (Supported actions: create, read, update, delete.) Tj
+0 -19 Td (Error state displays a clear failure message.) Tj
+0 -19 Td () Tj
+0 -19 Td (TECH STACK AND SETUP) Tj
+0 -19 Td (PHP 8.1+, Apache or PHP development server, MariaDB.) Tj
+0 -19 Td (Database setup: Documents/db-install-statements.sql.) Tj
+0 -19 Td (Folders: views/, css/, js/, controllers/, models/, Documents/.) Tj
+0 -19 Td (GitHub Pages cannot execute PHP or MariaDB.) Tj
+0 -19 Td (For startup steps see README.md.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001853 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1923
+%%EOF
