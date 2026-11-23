@@ -1,0 +1,81 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 995 >>
+stream
+BT
+/F1 15 Tf
+50 768 Td
+(CPIT 405 - Lab 10 | Project Sketch) Tj
+/F1 10 Tf
+0 -23 Td
+(Student: Atheer AlSulami | ID: 2307149) Tj
+0 -23 Td
+(UML DIAGRAM - INHERITANCE) Tj
+0 -23 Td
+(Class: Person) Tj
+0 -23 Td
+(  name: String) Tj
+0 -23 Td
+(  speak\(\): string) Tj
+0 -23 Td
+(  getName\(\): String) Tj
+0 -23 Td
+(Class: Professor EXTENDS Person) Tj
+0 -23 Td
+(  salary: Float) Tj
+0 -23 Td
+(  Teach\(\): string) Tj
+0 -23 Td
+(Inheritance arrow: Professor --|> Person) Tj
+0 -23 Td
+() Tj
+0 -23 Td
+(ER DIAGRAM - TASK MANAGER) Tj
+0 -23 Td
+(Table: tasks) Tj
+0 -23 Td
+(  id INT UNSIGNED AUTO_INCREMENT  [PRIMARY KEY]) Tj
+0 -23 Td
+(  title VARCHAR\(100\) NOT NULL) Tj
+0 -23 Td
+(  status ENUM\(pending, in_progress, done\)) Tj
+0 -23 Td
+(  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP) Tj
+0 -23 Td
+(Single-table example; no foreign keys required.) Tj
+0 -23 Td
+() Tj
+0 -23 Td
+(REQUEST FLOW) Tj
+0 -23 Td
+(Browser -> controllers/ -> models/ -> MariaDB) Tj
+0 -23 Td
+(Browser <- views/ <- controllers/ <- models/) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001286 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1356
+%%EOF

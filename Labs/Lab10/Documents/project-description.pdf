@@ -1,0 +1,71 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1281 >>
+stream
+BT
+/F1 15 Tf
+50 768 Td
+(CPIT 405 - Lab 10 | Project Description) Tj
+/F1 10 Tf
+0 -23 Td
+(Student: Atheer AlSulami | ID: 2307149) Tj
+0 -23 Td
+(Technology: PHP, MariaDB, HTML, CSS, and JavaScript Fetch API.) Tj
+0 -23 Td
+(Assessment 1: power\(base, exponent\) using an iterative loop.) Tj
+0 -23 Td
+(Assessment 2: Person superclass, Professor subclass via extends.) Tj
+0 -23 Td
+(Assessment 3: PDO and SHOW DATABASES SQL query.) Tj
+0 -23 Td
+(Homework application: simple SQL-backed task tracker.) Tj
+0 -23 Td
+(Features: create, list, edit, and delete tasks.) Tj
+0 -23 Td
+(Validation: required title, length limit, approved status values.) Tj
+0 -23 Td
+(Security: prepared statements, CSRF token, HTML escaping.) Tj
+0 -23 Td
+(Views: dashboard.php, power.php, oop.php, databases.php.) Tj
+0 -23 Td
+(Controllers: index, tasks, power, oop, databases, api.) Tj
+0 -23 Td
+(Models: Database, DatabaseModel, TaskModel, Person.) Tj
+0 -23 Td
+(SQL schema and example rows are provided in Documents/.) Tj
+0 -23 Td
+(AJAX: JS Fetch API calls controllers/api.php for task JSON.) Tj
+0 -23 Td
+(Local installation: import SQL, start MariaDB, run PHP server.) Tj
+0 -23 Td
+(GitHub Pages does not execute PHP or host MariaDB.) Tj
+0 -23 Td
+(See the README for complete run commands and environment setup.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001573 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1643
+%%EOF
