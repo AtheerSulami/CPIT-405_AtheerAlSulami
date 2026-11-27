@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Student: Atheer AlSulami | Student ID: 2307149 | CPIT 405 Lab 11 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CPIT 405 — Lab 11 Assessment</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="eyebrow">KING ABDULAZIZ UNIVERSITY · CPIT 405</p>
+      <h1>Lab 11 <span>AJAX & JSON</span></h1>
+      <p>PHP associative array → JSON → AJAX → Browser Console</p>
+      <div class="student">Atheer AlSulami <span>•</span> 2307149</div>
+    </header>
+    <section class="panel">
+      <p class="eyebrow">LAB ASSESSMENT · QUESTIONS 1–3</p>
+      <h2>PHP data</h2>
+      <p>The assessment asks for a PHP array keyed by name, converted to JSON, then requested using AJAX and displayed in the browser's Console.</p>
+      <table>
+        <thead><tr><th>Name</th><th>Total</th></tr></thead>
+        <tbody><tr><td>Mohammad</td><td>4</td></tr><tr><td>Fahad</td><td>3.5</td></tr></tbody>
+      </table>
+      <button id="fetch-json" type="button">Fetch JSON using AJAX</button>
+      <p class="hint">Open Developer Tools → Console, then click the button to see the returned JSON object.</p>
+      <p id="status" role="status">Ready to request data.</p>
+      <pre id="json-output" aria-label="Received JSON">The server response will appear here.</pre>
+    </section>
+    <footer>CPIT 405 · Lab Assessment Only</footer>
+  </main>
+</body>
+</html>

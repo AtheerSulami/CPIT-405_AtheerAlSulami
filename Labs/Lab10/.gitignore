@@ -1,5 +1,0 @@
-.env
-.env.local
-*.log
-vendor/
-.DS_Store
